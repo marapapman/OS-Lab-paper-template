@@ -1,0 +1,114 @@
+% Useful macros for paper writing
+
+\definecolor{red}{RGB}{255,0,0}
+\definecolor{green}{RGB}{18,220,168}
+
+\newcommand{\ie}{i.e.,\xspace}
+\newcommand{\eg}{e.g.,\xspace}
+\newcommand{\etc}{etc.\xspace}
+\newcommand{\etal}{\textit{et al.}\xspace}
+
+\newcommand{\mypar}[1]{\vspace*{0.5ex}\textbf{#1}}
+\newcommand{\mypari}[1]{\vspace*{0.5ex}\emph{#1}}
+\newcommand{\company}{anonymous company\xspace}%
+
+\newcommand{\cmark}{\ding{51}}%
+\newcommand{\xmark}{\ding{55}}%
+%color options: white, black, red, green, blue, cyan, magenta, yellow
+\newcommand{\blank}[1]{\textcolor{red}{(#1)}}
+\newcommand{\explain}[1]{\textcolor{blue}{(#1)}}
+
+\newcommand{\dingli}[1]{\textcolor{red}{(DL: #1)}}
+\newcommand{\xiao}[1]{\textcolor{blue}{(XIAO: #1)}}
+\newcommand{\shaofei}[1]{\textcolor{green}{(LI: #1)}}
+%\newcommand{\jp}[1]{\texttt{(JP: #1)}}
+
+\renewcommand{\algorithmicrequire}{\textbf{Input:}}  % Use Input in the format of Algorithm
+\renewcommand{\algorithmicensure}{\textbf{Output:}} % Use Output in the format of Algorithm
+
+\newcommand{\INPUT}{\item[\algorithmicinput]}
+\newcommand{\OUTPUT}{\item[\algorithmicoutput]} 
+\newcommand{\name}[1]{\textit{#1}}
+\newcommand{\mname}[1]{\mathit{#1}}
+\newcommand{\func}[1]{\texttt{#1}}
+\newcommand{\toolname}{\textsc{NodLink}\xspace}
+\newcommand{\toolnameu}{\textsc{Unicorn}\xspace}
+\newcommand{\toolnameh}{\textsc{Holmes}\xspace}
+\newcommand{\cadets}{\textsc{Cadets}\xspace}
+\newcommand{\theia}{\textsc{Theia}\xspace}
+\newcommand{\trace}{\textsc{Trace}\xspace}
+\newcommand{\avedis}{two\xspace}
+\newcommand{\insightone}{Attack Affinity\xspace}
+\newcommand{\insighttwo}{Anomaly Polymerism\xspace}
+\newcommand{\anosec}{AnonymousSec\xspace}
+\newcommand{\activityanom}{Activity level Anomalies\xspace}
+\newcommand{\eat}[1]{}
+\acrodef{wp}[WP]{Website Fingerprinting}
+\acrodef{apt}[APT]{Advanced Persistent Threats}
+\acrodef{lol}[LotL]{Living-Off-The-Land}
+\acrodef{ids}[IDS]{Intrusion Detection System}
+\acrodef{vae}[VAE]{Variational AutoEncoder}
+\acrodef{re}[RE]{reconstruction error}
+\acrodef{sv}[SV]{Stableness Value}
+\acrodef{as}[AS]{anomaly score}
+\acrodef{gas}[GAS]{graph anomaly score}
+\acrodef{etw}[ETW]{Event Tracing for Windows}
+\acrodef{e3}[E3]{Engagement 3}
+\acrodef{e5}[E5]{Engagement 5}
+\acrodef{ttp}[TTPs]{Tactics, Techniques, and Procedures}
+\acrodef{hsg}[HSG]{High-level Scenario Graph}
+\acrodef{nlp}[NLP]{Natural Language Processing}
+\acrodef{dg}[DG]{Detection Graph}
+\acrodef{poi}[POI]{Point of Interest}
+\acrodef{iv}[IV]{Important Value}
+\acrodef{sg}[SG]{Suspicious Graph}
+\acrodef{mttd}[MTTD]{Mean Time to Detect}
+\acrodef{soc}[SOC]{Security Operations Center}
+%stuff for listings package
+
+%\newfloat{program}{h}{eqn}
+%\DeclareFloatingEnvironment[]{component}
+\newlength{\MaxSizeOfLineNumbers}%
+\settowidth{\MaxSizeOfLineNumbers}{99}% Adjust to maximum number of lines
+\addtolength{\MaxSizeOfLineNumbers}{.5ex}%
+\definecolor{keywordcolor}{rgb}{0.8,0.1,0.5}
+\definecolor{lightlightgray}{gray}{.96}
+\definecolor{lightgray}{gray}{.925}
+\definecolor{medlightgray}{gray}{0.7}
+\definecolor{medgray}{gray}{0.4}
+\definecolor{darkgray}{gray}{0.35}
+\definecolor{nearblack}{gray}{0.15}
+
+\lstset{%
+language={Java}, 
+columns=fullflexible, 
+basicstyle=\color{nearblack}\scriptsize,
+numbers=left,
+identifierstyle=\color{black},
+keywordstyle=\color{keywordcolor}\bfseries,
+commentstyle=\color{medgray}\itshape,
+stringstyle=\color{blue}\ttfamily\scriptsize,
+showspaces=false,
+showstringspaces=false,
+showtabs=false,
+tabsize=2,
+emphstyle=\color{black}\gbox,
+breaklines=true,
+numbersep=4pt,
+xleftmargin=\MaxSizeOfLineNumbers,
+xrightmargin=0.5em,
+framexleftmargin=1em,
+firstnumber=auto,
+showlines=true,
+frame=none,
+string=[b]",
+escapechar=@
+}%
+
+
+%stuff for cleveref
+%\crefname{figure}{Figure}{Figures}
+\crefname{component}{Component}{Components}
+%\crefname{algocf}{Algorithm}{Algorithms}
+%\crefname{algorithmic}{Algorithm}{Algorithms}
+

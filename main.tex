@@ -1,0 +1,44 @@
+% for ACM papers
+\documentclass[sigconf, anonymous]{acmart}
+% for IEEE papers
+%\documentclass[conference,compsoc]{IEEEtran}
+
+\input{packages}
+\input{macro}
+\begin{document}
+\title{A Template for Technical Papers} 
+%for IEEE papers
+%\maketitle
+\begin{abstract}
+    This is a template project for writing technical papers for system/security/SE papers. If you are writing a paper about a new technique, you may first try to fill the blanks in the paper for the first draft and then polish the language later. Before you write the paper, please first make clear the topic sentence of your paper by filling blanks in the next paragraph. 
+
+    By introducing a novel, non-trivial, reasonable strategy \blank{}, we address a challenging technical problem \blank{} that existing techniques have not well addressed. Therefore, we can better satisfy an important technical requirement \blank{}. 
+
+    \blank{} are slots that you need to fill. In your first draft, please keep the brackets and directly put your answers in the blank. Then, people can quickly track your answers and tell you which part should be strengthened. 
+
+    \explain{} are some comments and explanations that helps you to understand to blanks.
+\end{abstract}
+%for ACM papers
+\maketitle
+
+\input{tex/introduction}
+
+\input{tex/Motivatingexample}
+\input{tex/threatmodel}
+\input{tex/approach}
+
+
+\input{tex/evaluation}
+
+% \input{tex/relatedwork}
+% \input{tex/conclusion}
+% \input{tex/Acknowledgments}
+
+%for ACM papers
+\bibliographystyle{ACM-Reference-Format}
+%for IEEE papers
+%\bibliographystyle{IEEEtran} %for IEEE papers
+\bibliography{references}
+
+
+\end{document}

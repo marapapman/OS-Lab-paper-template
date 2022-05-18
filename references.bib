@@ -1,0 +1,767 @@
+@book{Hossain,
+abstract = {We present an approach and system for real-time reconstruction of attack scenarios on an enterprise host. To meet the scalability and real-time needs of the problem, we develop a platform-neutral, main-memory based, dependency graph abstraction of audit-log data. We then present efficient, tag-based techniques for attack detection and reconstruction, including source identification and impact analysis. We also develop methods to reveal the big picture of attacks by construction of compact, visual graphs of attack steps. Our system participated in a red team evaluation organized by DARPA and was able to successfully detect and reconstruct the details of the red team's attacks on hosts running Windows, FreeBSD and Linux.},
+author = {Hossain, Nahid and Eshete, Birhanu and Gjomemo, Rigel and Milajerdi, Sadegh M and Wang, Junao and Sekar, R and Stoller, Scott D and Venkatakrishnan, V N},
+file = {:home/lishaofei/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Hossain et al. - Unknown - SLEUTH Real-time Attack Scenario Reconstruction from COTS Audit Data SLEUTH Real-time Attack Scenario Reconst.pdf:pdf},
+mendeley-groups = {Darpa/intro},
+title = {{SLEUTH: Real-time Attack Scenario Reconstruction from COTS Audit Data SLEUTH: Real-time Attack Scenario Reconstruction from COTS Audit Data *}}
+}
+@MISC{threatmodel,
+    author = {Victoria Drake},
+    title = {Threat Modeling},
+    url = {https://owasp.org/www-community/Threat_Modeling#:~:text=A%20threat%20model%20typically%20includes%3A%201%20Description%20of,threats%2C%20and%20verification%20of%20success%20of%20actions%20taken},
+    year = {}
+}
+@MISC{Ramosusingtfidf,
+    author = {Juan Ramos},
+    title = {Using TF-IDF to Determine Word Relevance in Document Queries},
+    year = {}
+}
+@techreport{Milajerdi,
+abstract = {In this paper, we present HOLMES, a system that implements a new approach to the detection of Advanced and Persistent Threats (APTs). HOLMES is inspired by several case studies of real-world APTs that highlight some common goals of APT actors. In a nutshell, HOLMES aims to produce a detection signal that indicates the presence of a coordinated set of activities that are part of an APT campaign. One of the main challenges addressed by our approach involves developing a suite of techniques that make the detection signal robust and reliable. At a high-level, the techniques we develop effectively leverage the correlation between suspicious information flows that arise during an attacker campaign. In addition to its detection capability, HOLMES is also able to generate a high-level graph that summarizes the attacker's actions in real-time. This graph can be used by an analyst for an effective cyber response. An evaluation of our approach against some real-world APTs indicates that HOLMES can detect APT campaigns with high precision and low false alarm rate. The compact high-level graphs produced by HOLMES effectively summarizes an ongoing attack campaign and can assist real-time cyber-response operations. I. INTRODUCTION In one of the first ever detailed reports on Advanced and Persistent Threats (entitled APT1 [8]), the security firm Mandi-ant disclosed the goals and activities of a global APT actor. The activities included stealing of hundreds of terabytes of sensitive data (including business plans, technology blueprints, and test results) from at least 141 organizations across a diverse set of industries. They estimated the average duration of persistence of malware in the targeted organizations to be 365 days. Since then, there has been a growing list of documented APTs involving powerful actors, including nation-state actors, on the global scene. Understanding the motivations and operations of the APT actors plays a vital role in the challenge of addressing these threats. To further this understanding, the Mandiant report also offered an APT lifecycle model (Fig. 1), also known as the kill-chain, that allows one to gain perspective on how the APT steps collectively achieve their actors' goals. A typical APT attack consists of a successful penetration (e.g., a drive-by-download or a spear-phishing attack), reconnaissance , command and control (C&C) communication (sometimes using Remote Access Trojans (RATs)), privilege escalation (by exploiting vulnerabilities), lateral movement through the network, exfiltration of confidential information, and so on. In short, the kill-chain provides a reference to understand and map the motivations, targets, and actions of APT actors.},
+author = {Milajerdi, Sadegh M and Gjomemo, Rigel and Eshete, Birhanu and Sekar, R and Venkatakrishnan, V N},
+file = {:home/lishaofei/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Milajerdi et al. - Unknown - HOLMES Real-time APT Detection through Correlation of Suspicious Information Flows.pdf:pdf},
+mendeley-groups = {Darpa/intro},
+title = {{HOLMES: Real-time APT Detection through Correlation of Suspicious Information Flows}}
+}
+@article{Han2020,
+abstract = {Advanced Persistent Threats (APTs) are difficult to detect due to their “low-and-slow” attack patterns and frequent use of zero-day exploits. We present UNICORN, an anomaly-based APT detector that effectively leverages data provenance analysis. From modeling to detection, UNICORN tailors its design specifically for the unique characteristics of APTs. Through extensive yet time-efficient graph analysis, UNICORN explores provenance graphs that provide rich contextual and historical information to identify stealthy anomalous activities without predefined attack signatures. Using a graph sketching technique, it summarizes long-running system execution with space efficiency to combat slow-acting attacks that take place over a long time span. UNICORN further improves its detection capability using a novel modeling approach to understand long-term behavior as the system evolves. Our evaluation shows that UNICORN outperforms an existing state-of-the-art APT detection system and detects real-life APT scenarios with high accuracy.},
+archivePrefix = {arXiv},
+arxivId = {2001.01525},
+author = {Han, Xueyuan and Pasquier, Thomas and Bates, Adam and Mickens, James and Seltzer, Margo},
+doi = {10.14722/ndss.2020.24046},
+eprint = {2001.01525},
+file = {:home/lishaofei/Desktop/paper/UNICOR.pdf:pdf},
+isbn = {1891562614},
+issn = {23318422},
+journal = {arXiv},
+mendeley-groups = {Darpa/related-work,Darpa/intro},
+number = {February},
+title = {{UNICORN: Runtime provenance-based detector for advanced persistent threats}},
+year = {2020}
+}
+@Misc{mitre,
+year = {2022},
+url = {https://attack.mitre.org/},
+title = {MITRE ATT\&CK},
+}
+@Misc{annual-review,
+year = {2021},
+url = {https://securelist.com/apt-annual-review-2021/105127/},
+title = {APT annual review 2021},
+}
+@Misc{log4j,
+year = {2021},
+url = {https://logging.apache.org/log4j/2.x/},
+title = {Log4j},
+}
+
+@Misc{attacks,
+author = {Brenda R. Sharton},
+year = {2021},
+url = {https://hbr.org/2021/05/ransomware-attacks-are-spiking-is-your-company-prepared},
+title = {Ransomware Attacks Are Spiking. Is Your Company Prepared?},
+}
+
+@Misc{healthy-care-attack,
+author = {Paul Bischoff},
+year = {2021},
+url = {https://www.comparitech.com/blog/information-security/ransomware-attacks-hospitals-data/},
+title = {Ransomware attacks on US healthcare organizations cost \$20.8bn in 2020
+},
+}
+
+@Misc{zero-day,
+year = {2021},
+url = {https://en.wikipedia.org/wiki/Zero-day_(computing)},
+title = {Zero-day malware},
+}
+
+@misc{LivingOffTheLand,
+	title= {Living Off The Land Binaries and Scripts (and now also Libraries)},
+	note = {https://github.com/LOLBAS-Project/LOLBAS},
+	author={LOLBAS Project},
+	year=2022
+}
+
+@misc{GTFOBins,
+	title= {GTFOBins is a curated list of Unix binaries that can be used to bypass local security restrictions in misconfigured systems},
+	note = {https://gtfobins.github.io/},
+	author={Emilio Pinna and Andrea Cardaci},
+	year=2022
+}
+@misc{Incident-Investigation,
+	title= {Incident Investigation},
+	note = {https://www.fireeye.com/products/incident-investigation.html},
+	author={FireEye},
+	year=2019
+}
+@misc{Automatedincidentresponse,
+	title= {Automated incident response: Respond to every alert},
+	note = {https://swimlane.com/blog/automated-incident-response-respond-every-alert/},
+	author={SwimLane},
+	year=2017
+}
+
+@misc{howmanyalerts,
+	title= {The Numbers Game: How Many Alerts are too Many to Handle?
+},
+	note = {https://www.fireeye.com/offers/rpt-idc-the-numbers-game.html},
+	author={FireEye},
+	year=2019
+}
+@inproceedings{han2021sigl,
+  title={$\{$SIGL$\}$: Securing Software Installations Through Deep Graph Learning},
+  author={Han, Xueyuan and Yu, Xiao and Pasquier, Thomas and Li, Ding and Rhee, Junghwan and Mickens, James and Seltzer, Margo and Chen, Haifeng},
+  booktitle={30th USENIX Security Symposium (USENIX Security 21)},
+  pages={2345--2362},
+  year={2021}
+}
+@inproceedings{tang2018nodemerge,
+  title={Nodemerge: Template based efficient data reduction for big-data causality analysis},
+  author={Tang, Yutao and Li, Ding and Li, Zhichun and Zhang, Mu and Jee, Kangkook and Xiao, Xusheng and Wu, Zhenyu and Rhee, Junghwan and Xu, Fengyuan and Li, Qun},
+  booktitle={Proceedings of the 2018 ACM SIGSAC Conference on Computer and Communications Security},
+  pages={1324--1337},
+  year={2018}
+}
+@article{10.1145/1541880.1541882,
+author = {Chandola, Varun and Banerjee, Arindam and Kumar, Vipin},
+title = {Anomaly Detection: A Survey},
+year = {2009},
+issue_date = {July 2009},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {41},
+number = {3},
+issn = {0360-0300},
+url = {https://doi.org/10.1145/1541880.1541882},
+doi = {10.1145/1541880.1541882},
+abstract = {Anomaly detection is an important problem that has been researched within diverse research areas and application domains. Many anomaly detection techniques have been specifically developed for certain application domains, while others are more generic. This survey tries to provide a structured and comprehensive overview of the research on anomaly detection. We have grouped existing techniques into different categories based on the underlying approach adopted by each technique. For each category we have identified key assumptions, which are used by the techniques to differentiate between normal and anomalous behavior. When applying a given technique to a particular domain, these assumptions can be used as guidelines to assess the effectiveness of the technique in that domain. For each category, we provide a basic anomaly detection technique, and then show how the different existing techniques in that category are variants of the basic technique. This template provides an easier and more succinct understanding of the techniques belonging to each category. Further, for each category, we identify the advantages and disadvantages of the techniques in that category. We also provide a discussion on the computational complexity of the techniques since it is an important issue in real application domains. We hope that this survey will provide a better understanding of the different directions in which research has been done on this topic, and how techniques developed in one area can be applied in domains for which they were not intended to begin with.},
+journal = {ACM Comput. Surv.},
+month = {jul},
+articleno = {15},
+numpages = {58},
+keywords = {Anomaly detection, outlier detection}
+}
+
+@article{10.5555/2379703.2379707,
+author = {Yu, Yingbing},
+title = {A Survey of Anomaly Intrusion Detection Techniques},
+year = {2012},
+issue_date = {October 2012},
+publisher = {Consortium for Computing Sciences in Colleges},
+address = {Evansville, IN, USA},
+volume = {28},
+number = {1},
+issn = {1937-4771},
+abstract = {Intrusion detection systems are based on two fundamental approaches: the detection of anomalous behavior as it deviates from normal behavior, and misuse detection by monitoring those "signatures" of those known malicious attacks and system vulnerabilities. Anomaly (behavior-based) IDSs assume the deviation of normal activities under attacks and perform abnormal detection compared with predefined system or user behavior reference model. This paper is to provide a survey of anomaly intrusion detection techniques. It presents a review about the evolution of intrusion detection systems over the past two decades. It focuses on recent research advances and trends in anomaly IDSs, including the application of statistics, machine learning, neural network, computer immunology, and data mining techniques.},
+journal = {J. Comput. Sci. Coll.},
+month = {oct},
+pages = {9–17},
+numpages = {9}
+}
+@article{Yu2012ASO,
+  title={A survey of anomaly intrusion detection techniques},
+  author={Yingbing Yu},
+  journal={Journal of Computing Sciences in Colleges},
+  year={2012},
+  volume={28},
+  pages={9-17}
+}
+@INPROCEEDINGS{9152772,  author={Hossain, Md Nahid and Sheikhi, Sanaz and Sekar, R.},  booktitle={2020 IEEE Symposium on Security and Privacy (SP)},   title={Combating Dependence Explosion in Forensic Analysis Using Alternative Tag Propagation Semantics},   year={2020},  volume={},  number={},  pages={1139-1155},  doi={10.1109/SP40000.2020.00064}}
+
+@inproceedings{wang2020you,
+  title={You Are What You Do: Hunting Stealthy Malware via Data Provenance Analysis.},
+  author={Wang, Qi and Hassan, Wajih Ul and Li, Ding and Jee, Kangkook and Yu, Xiao and Zou, Kexuan and Rhee, Junghwan and Chen, Zhengzhang and Cheng, Wei and Gunter, Carl A and others},
+  booktitle={NDSS},
+  year={2020}
+}
+@inproceedings{hassan2019nodoze,
+  title={Nodoze: Combatting threat alert fatigue with automated provenance triage},
+  author={Hassan, Wajih Ul and Guo, Shengjian and Li, Ding and Chen, Zhengzhang and Jee, Kangkook and Li, Zhichun and Bates, Adam},
+  booktitle={Network and Distributed Systems Security Symposium},
+  year={2019}
+}
+
+@inproceedings{10.1145/3427228.3427255,
+author = {Hassan, Wajih Ul and Li, Ding and Jee, Kangkook and Yu, Xiao and Zou, Kexuan and Wang, Dawei and Chen, Zhengzhang and Li, Zhichun and Rhee, Junghwan and Gui, Jiaping and Bates, Adam},
+title = {This is Why We Can’t Cache Nice Things: Lightning-Fast Threat Hunting Using Suspicion-Based Hierarchical Storage},
+year = {2020},
+isbn = {9781450388580},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3427228.3427255},
+doi = {10.1145/3427228.3427255},
+abstract = {Recent advances in the causal analysis can accelerate incident response time, but only after a causal graph of the attack has been constructed. Unfortunately, existing causal graph generation techniques are mainly offline and may take hours or days to respond to investigator queries, creating greater opportunity for attackers to hide their attack footprint, gain persistency, and propagate to other machines. To address that limitation, we present Swift, a threat investigation system that provides high-throughput causality tracking and real-time causal graph generation capabilities. We design an in-memory graph database that enables space-efficient graph storage and online causality tracking with minimal disk operations. We propose a hierarchical storage system that keeps forensically-relevant part of the causal graph in main memory while evicting rest to disk. To identify the causal graph that is likely to be relevant during the investigation, we design an asynchronous cache eviction policy that calculates the most suspicious part of the causal graph and caches only that part in the main memory. We evaluated Swift on a real-world enterprise to demonstrate how our system scales to process typical event loads and how it responds to forensic queries when security alerts occur. Results show that Swift is scalable, modular, and answers forensic queries in real-time even when analyzing audit logs containing tens of millions of events. },
+booktitle = {Annual Computer Security Applications Conference},
+pages = {165–178},
+numpages = {14},
+keywords = {Data Provenance, Digital Forensics, Auditing},
+location = {Austin, USA},
+series = {ACSAC '20}
+}
+@INPROCEEDINGS{8215725,  author={Ring, Markus and Dallmann, Alexander and Landes, Dieter and Hotho, Andreas},  booktitle={2017 IEEE International Conference on Data Mining Workshops (ICDMW)},   title={IP2Vec: Learning Similarities Between IP Addresses},   year={2017},  volume={},  number={},  pages={657-666},  doi={10.1109/ICDMW.2017.93}}
+
+@inproceedings{pennington-etal-2014-glove,
+    title = "{G}lo{V}e: Global Vectors for Word Representation",
+    author = "Pennington, Jeffrey  and
+      Socher, Richard  and
+      Manning, Christopher",
+    booktitle = "Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing ({EMNLP})",
+    month = oct,
+    year = "2014",
+    address = "Doha, Qatar",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/D14-1162",
+    doi = "10.3115/v1/D14-1162",
+    pages = "1532--1543",
+}
+@inproceedings{DBLP:journals/corr/abs-1301-3781,
+  author    = {Tom{\'{a}}s Mikolov and
+               Kai Chen and
+               Greg Corrado and
+               Jeffrey Dean},
+  editor    = {Yoshua Bengio and
+               Yann LeCun},
+  title     = {Efficient Estimation of Word Representations in Vector Space},
+  booktitle = {1st International Conference on Learning Representations, {ICLR} 2013,
+               Scottsdale, Arizona, USA, May 2-4, 2013, Workshop Track Proceedings},
+  year      = {2013},
+  url       = {http://arxiv.org/abs/1301.3781},
+  timestamp = {Mon, 28 Dec 2020 11:31:01 +0100},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-1301-3781.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+@misc{bojanowski2017enriching,
+      title={Enriching Word Vectors with Subword Information}, 
+      author={Piotr Bojanowski and Edouard Grave and Armand Joulin and Tomas Mikolov},
+      year={2017},
+      eprint={1607.04606},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+@article{Hucka2018,
+  doi = {10.21105/joss.00596},
+  url = {https://doi.org/10.21105/joss.00596},
+  year = {2018},
+  publisher = {The Open Journal},
+  volume = {3},
+  number = {25},
+  pages = {596},
+  author = {Michael Hucka},
+  title = {Nostril: A nonsense string evaluator written in Python},
+  journal = {Journal of Open Source Software}
+}
+
+@inproceedings{zeng2021watson,
+  title={Watson: Abstracting behaviors from audit logs via aggregation of contextual semantics},
+  author={Zeng, Jun and Chua, Zheng Leong and Chen, Yinfang and Ji, Kaihang and Liang, Zhenkai and Mao, Jian},
+  booktitle={Proceedings of the 28th Annual Network and Distributed System Security Symposium, NDSS},
+  year={2021}
+}
+@inproceedings{An2015VariationalAB,
+  title={Variational Autoencoder based Anomaly Detection using Reconstruction Probability},
+  author={Jinwon An and Sungzoon Cho},
+  year={2015}
+}
+@book{hawkins1980identification,
+  title={Identification of outliers},
+  author={Hawkins, Douglas M},
+  volume={11},
+  year={1980},
+  publisher={Springer}
+}
+@inproceedings{king2003backtracking,
+  title={Backtracking intrusions},
+  author={King, Samuel T and Chen, Peter M},
+  booktitle={Proceedings of the nineteenth ACM symposium on Operating systems principles},
+  pages={223--236},
+  year={2003}
+}
+@misc{struts2-046,
+	title= {S2-046},
+	note = {https://wiki.apache.org/confluence/display/WW/S2-046},
+	author={Lukasz Lenart},
+	year=2017
+}
+@misc{apt29,
+	title= {APT29},
+	note = {https://attack.mitre.org/groups/G0016/},
+	author={MITRE ATT\&CK},
+	year=2021
+}
+@misc{FIN6,
+	title= {FIN6},
+	note = {https://attack.mitre.org/groups/G0037/},
+	author={MITRE ATT\&CK},
+	year=2021
+}
+@misc{SideWinder,
+	title= {SideWinder},
+	note = {https://attack.mitre.org/groups/G0121/},
+	author={MITRE ATT\&CK},
+	year=2021
+}
+@misc{apt32,
+	title= {APT32},
+	note = {https://attack.mitre.org/groups/G0050/},
+	author={MITRE ATT\&CK},
+	year=2021
+}
+@misc{WeblogicCVE-2020-14645,
+	title= {CVE-2020-14645 Detail},
+	note = {https://nvd.nist.gov/vuln/detail/CVE-2020-14645},
+	author={NATIONAL VULNERABILITY DATABASE},
+	year=2022
+}
+@misc{Log4jCVE-2021-44228,
+	title= {CVE-2021-44228 Detail},
+	note = {https://nvd.nist.gov/vuln/detail/CVE-2021-44228},
+	author={NATIONAL VULNERABILITY DATABASE},
+	year=2022
+}
+@inproceedings {277080,
+title = {{Back-Propagating} System Dependency Impact for Attack Investigation},
+booktitle = {31st USENIX Security Symposium (USENIX Security 22)},
+year = {2022},
+address = {Boston, MA},
+url = {https://www.usenix.org/conference/usenixsecurity22/presentation/fang},
+publisher = {USENIX Association},
+month = aug,
+}
+@inproceedings{10.1145/3319535.3363217,
+author = {Milajerdi, Sadegh M. and Eshete, Birhanu and Gjomemo, Rigel and Venkatakrishnan, V.N.},
+title = {POIROT: Aligning Attack Behavior with Kernel Audit Records for Cyber Threat Hunting},
+year = {2019},
+isbn = {9781450367479},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3319535.3363217},
+doi = {10.1145/3319535.3363217},
+abstract = {Cyber threat intelligence (CTI) is being used to search for indicators of attacks that might have compromised an enterprise network for a long time without being discovered. To have a more effective analysis, CTI open standards have incorporated descriptive relationships showing how the indicators or observables are related to each other. However, these relationships are either completely overlooked in information gathering or not used for threat hunting. In this paper, we propose a system, called POIROT, which uses these correlations to uncover the steps of a successful attack campaign. We use kernel audits as a reliable source that covers all causal relations and information flows among system entities and model threat hunting as an inexact graph pattern matching problem. Our technical approach is based on a novel similarity metric which assesses an alignment between a query graph constructed out of CTI correlations and a provenance graph constructed out of kernel audit log records. We evaluate POIROT on publicly released real-world incident reports as well as reports of an adversarial engagement designed by DARPA, including ten distinct attack campaigns against different OS platforms such as Linux, FreeBSD, and Windows. Our evaluation results show that POIROT is capable of searching inside graphs containing millions of nodes and pinpoint the attacks in a few minutes, and the results serve to illustrate that CTI correlations could be used as robust and reliable artifacts for threat hunting.},
+booktitle = {Proceedings of the 2019 ACM SIGSAC Conference on Computer and Communications Security},
+pages = {1795–1812},
+numpages = {18},
+keywords = {indicator of compromise, cyber threat intelligence, graph alignment, cyber threat hunting, graph pattern matching},
+location = {London, United Kingdom},
+series = {CCS '19}
+}
+@inproceedings {263852,
+author = {Abdulellah Alsaheel and Yuhong Nan and Shiqing Ma and Le Yu and Gregory Walkup and Z. Berkay Celik and Xiangyu Zhang and Dongyan Xu},
+title = {{ATLAS}: A Sequence-based Learning Approach for Attack Investigation},
+booktitle = {30th USENIX Security Symposium (USENIX Security 21)},
+year = {2021},
+isbn = {978-1-939133-24-3},
+pages = {3005--3022},
+url = {https://www.usenix.org/conference/usenixsecurity21/presentation/alsaheel},
+publisher = {USENIX Association},
+month = aug,
+}
+@inproceedings{Custos,
+author = {Paccagnella, Riccardo and Datta, Pubali and Hassan, Wajih and Bates, Adam and Fletcher, Christopher and Miller, Andrew and Tian, Dave},
+year = {2020},
+month = {01},
+pages = {},
+title = {Custos: Practical Tamper-Evident Auditing of Operating Systems Using Trusted Execution},
+doi = {10.14722/ndss.2020.24065}
+}
+@inproceedings{karande2017sgx,
+  title={Sgx-log: Securing system logs with sgx},
+  author={Karande, Vishal and Bauman, Erick and Lin, Zhiqiang and Khan, Latifur},
+  booktitle={Proceedings of the 2017 ACM on Asia Conference on Computer and Communications Security},
+  pages={19--30},
+  year={2017}
+}
+@inproceedings{10.5555/1767011.1767013,
+author = {Bellare, Mihir and Yee, Bennet},
+title = {Forward-Security in Private-Key Cryptography},
+year = {2003},
+isbn = {3540008470},
+publisher = {Springer-Verlag},
+address = {Berlin, Heidelberg},
+booktitle = {Proceedings of the 2003 RSA Conference on The Cryptographers' Track},
+pages = {1–18},
+numpages = {18},
+location = {San Francisco, CA, USA},
+}
+@inproceedings{paccagnella2020logging,
+  title={Logging to the Danger Zone: Race Condition Attacks and Defenses on System Audit Frameworks},
+  author={Paccagnella, Riccardo and Liao, Kevin and Tian, Dave and Bates, Adam},
+  booktitle={Proceedings of the 2020 ACM SIGSAC Conference on Computer and Communications Security},
+  pages={1551--1574},
+  year={2020}
+}
+@inproceedings {272167,
+author = {Peng Fei and Zhou Li and Zhiying Wang and Xiao Yu and Ding Li and Kangkook Jee},
+title = {{SEAL}: Storage-efficient Causality Analysis on Enterprise Logs with Query-friendly Compression},
+booktitle = {30th USENIX Security Symposium (USENIX Security 21)},
+year = {2021},
+isbn = {978-1-939133-24-3},
+pages = {2987--3004},
+url = {https://www.usenix.org/conference/usenixsecurity21/presentation/fei},
+publisher = {USENIX Association},
+month = aug,
+}
+@inproceedings {217579,
+	author = {Md Nahid Hossain and Junao Wang and R. Sekar and Scott D. Stoller},
+	title = {{Dependence-Preserving} Data Compaction for Scalable Forensic Analysis},
+	booktitle = {27th USENIX Security Symposium (USENIX Security 18)},
+	year = {2018},
+	isbn = {978-1-939133-04-5},
+	address = {Baltimore, MD},
+	pages = {1723--1740},
+	url = {https://www.usenix.org/conference/usenixsecurity18/presentation/hossain},
+	publisher = {USENIX Association},
+	month = aug,
+}
+@inproceedings{10.1145/2508859.2516731,
+author = {Lee, Kyu Hyung and Zhang, Xiangyu and Xu, Dongyan},
+title = {LogGC: Garbage Collecting Audit Log},
+year = {2013},
+isbn = {9781450324779},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/2508859.2516731},
+doi = {10.1145/2508859.2516731},
+abstract = {System-level audit logs capture the interactions between applications and the runtime environment. They are highly valuable for forensic analysis that aims to identify the root cause of an attack, which may occur long ago, or to determine the ramifications of an attack for recovery from it. A key challenge of audit log-based forensics in practice is the sheer size of the log files generated, which could grow at a rate of Gigabytes per day. In this paper, we propose LogGC, an audit logging system with garbage collection (GC) capability. We identify and overcome the unique challenges of garbage collection in the context of computer forensic analysis, which makes LogGC different from traditional memory GC techniques. We also develop techniques that instrument user applications at a small number of selected places to emit additional system events so that we can substantially reduce the false dependences between system events to improve GC effectiveness. Our results show that LogGC can reduce audit log size by 14 times for regular user systems and 37 times for server systems, without affecting the accuracy of forensic analysis.},
+booktitle = {Proceedings of the 2013 ACM SIGSAC Conference on Computer \& Communications Security},
+pages = {1005–1016},
+numpages = {12},
+keywords = {audit log, garbage collection, reverse engineering, attack provenance},
+location = {Berlin, Germany},
+series = {CCS '13}
+}
+@inproceedings{10.1145/3243734.3243763,
+author = {Tang, Yutao and Li, Ding and Li, Zhichun and Zhang, Mu and Jee, Kangkook and Xiao, Xusheng and Wu, Zhenyu and Rhee, Junghwan and Xu, Fengyuan and Li, Qun},
+title = {NodeMerge: Template Based Efficient Data Reduction For Big-Data Causality Analysis},
+year = {2018},
+isbn = {9781450356930},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3243734.3243763},
+doi = {10.1145/3243734.3243763},
+abstract = {Today's enterprises are exposed to sophisticated attacks, such as Advanced Persistent Threats~(APT) attacks, which usually consist of stealthy multiple steps. To counter these attacks, enterprises often rely on causality analysis on the system activity data collected from a ubiquitous system monitoring to discover the initial penetration point, and from there identify previously unknown attack steps. However, one major challenge for causality analysis is that the ubiquitous system monitoring generates a colossal amount of data and hosting such a huge amount of data is prohibitively expensive. Thus, there is a strong demand for techniques that reduce the storage of data for causality analysis and yet preserve the quality of the causality analysis. To address this problem, in this paper, we propose NodeMerge, a template based data reduction system for online system event storage. Specifically, our approach can directly work on the stream of system dependency data and achieve data reduction on the read-only file events based on their access patterns. It can either reduce the storage cost or improve the performance of causality analysis under the same budget. Only with a reasonable amount of resource for online data reduction, it nearly completely preserves the accuracy for causality analysis. The reduced form of data can be used directly with little overhead. To evaluate our approach, we conducted a set of comprehensive evaluations, which show that for different categories of workloads, our system can reduce the storage capacity of raw system dependency data by as high as 75.7 times, and the storage capacity of the state-of-the-art approach by as high as 32.6 times. Furthermore, the results also demonstrate that our approach keeps all the causality analysis information and has a reasonably small overhead in memory and hard disk.},
+booktitle = {Proceedings of the 2018 ACM SIGSAC Conference on Computer and Communications Security},
+pages = {1324–1337},
+numpages = {14},
+keywords = {security, data reduction},
+location = {Toronto, Canada},
+series = {CCS '18}
+}
+
+@inproceedings{10.1145/2976749.2978378,
+author = {Xu, Zhang and Wu, Zhenyu and Li, Zhichun and Jee, Kangkook and Rhee, Junghwan and Xiao, Xusheng and Xu, Fengyuan and Wang, Haining and Jiang, Guofei},
+title = {High Fidelity Data Reduction for Big Data Security Dependency Analyses},
+year = {2016},
+isbn = {9781450341394},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/2976749.2978378},
+doi = {10.1145/2976749.2978378},
+abstract = {Intrusive multi-step attacks, such as Advanced Persistent Threat (APT) attacks, have plagued enterprises with significant financial losses and are the top reason for enterprises to increase their security budgets. Since these attacks are sophisticated and stealthy, they can remain undetected for years if individual steps are buried in background "noise." Thus, enterprises are seeking solutions to "connect the suspicious dots" across multiple activities. This requires ubiquitous system auditing for long periods of time, which in turn causes overwhelmingly large amount of system audit events. Given a limited system budget, how to efficiently handle ever-increasing system audit logs is a great challenge. This paper proposes a new approach that exploits the dependency among system events to reduce the number of log entries while still supporting high-quality forensic analysis. In particular, we first propose an aggregation algorithm that preserves the dependency of events during data reduction to ensure the high quality of forensic analysis. Then we propose an aggressive reduction algorithm and exploit domain knowledge for further data reduction. To validate the efficacy of our proposed approach, we conduct a comprehensive evaluation on real-world auditing systems using log traces of more than one month. Our evaluation results demonstrate that our approach can significantly reduce the size of system logs and improve the efficiency of forensic analysis without losing accuracy.},
+booktitle = {Proceedings of the 2016 ACM SIGSAC Conference on Computer and Communications Security},
+pages = {504–516},
+numpages = {13},
+keywords = {data reduction, intrusion detection, forensics, dependency analysis},
+location = {Vienna, Austria},
+series = {CCS '16}
+}
+
+@misc{aptcovid19,
+	title= {Advisory: APT29 targets COVID-19 vaccine development},
+	note = {https://media.defense.gov/2020/Jul/16/2002457639/-1/-1/0/NCSC_APT29_ADVISORY-QUAD-OFFICIAL-20200709-1810.PDF},
+	author={The United States’ Department of Homeland Security’s Cybersecurity and Infrastructure Security Agency (DHS CISA)},
+	year=2020
+}
+@misc{secbudget,
+	title= {Atomic Red Team},
+	note = {https://github.com/redcanaryco/atomic-red-team},
+	author={},
+	year=2021
+}
+@misc{atomictest,
+	title= {Security accounts for just 5.7% of IT spend: Gartner},
+	note = {https://www.cybersecuritydive.com/news/security-budget-gartner/587911/},
+	author={},
+	year=2021
+}
+@inproceedings{feng2021risgraph,
+  title={RisGraph: A Real-Time Streaming System for Evolving Graphs to Support Sub-millisecond Per-update Analysis at Millions Ops/s},
+  author={Feng, Guanyu and Ma, Zixuan and Li, Daixuan and Chen, Shengqi and Zhu, Xiaowei and Han, Wentao and Chen, Wenguang},
+  booktitle={Proceedings of the 2021 International Conference on Management of Data},
+  pages={513--527},
+  year={2021}
+}
+@misc{Grubbs-test,
+	title={Grubbs's test},
+	note = {https://en.wikipedia.org/wiki/Grubbs\%27s\_test},
+	author={Wikipedia},
+	year=2022
+}
+@inproceedings {190900,
+author = {Adam Bates and Dave (Jing) Tian and Kevin R.B. Butler and Thomas Moyer},
+title = {Trustworthy {Whole-System} Provenance for the Linux Kernel},
+booktitle = {24th USENIX Security Symposium (USENIX Security 15)},
+year = {2015},
+isbn = {978-1-939133-11-3},
+address = {Washington, D.C.},
+pages = {319--334},
+url = {https://www.usenix.org/conference/usenixsecurity15/technical-sessions/presentation/bates},
+publisher = {USENIX Association},
+month = aug,
+}
+@inproceedings{DBLP:conf/ndss/LeeZX13,
+  author    = {Kyu Hyung Lee and
+               Xiangyu Zhang and
+               Dongyan Xu},
+  title     = {High Accuracy Attack Provenance via Binary-based Execution Partition},
+  booktitle = {20th Annual Network and Distributed System Security Symposium, {NDSS}
+               2013, San Diego, California, USA, February 24-27, 2013},
+  publisher = {The Internet Society},
+  year      = {2013},
+  url       = {https://www.ndss-symposium.org/ndss2013/high-accuracy-attack-provenance-binary-based-execution-partition},
+  timestamp = {Mon, 01 Feb 2021 08:42:13 +0100},
+  biburl    = {https://dblp.org/rec/conf/ndss/LeeZX13.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+@inproceedings{10.1145/2420950.2420989,
+author = {Pohly, Devin J. and McLaughlin, Stephen and McDaniel, Patrick and Butler, Kevin},
+title = {Hi-Fi: Collecting High-Fidelity Whole-System Provenance},
+year = {2012},
+isbn = {9781450313124},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/2420950.2420989},
+doi = {10.1145/2420950.2420989},
+abstract = {Data provenance---a record of the origin and evolution of data in a system---is a useful tool for forensic analysis. However, existing provenance collection mechanisms fail to achieve sufficient breadth or fidelity to provide a holistic view of a system's operation over time. We present Hi-Fi, a kernel-level provenance system which leverages the Linux Security Modules framework to collect high-fidelity whole-system provenance. We demonstrate that Hi-Fi is able to record a variety of malicious behavior within a compromised system. In addition, our benchmarks show the collection overhead from Hi-Fi to be less than 1\% for most system calls and 3\% in a representative workload, while simultaneously generating a system measurement that fully reflects system evolution. In this way, we show that we can collect broad, high-fidelity provenance data which is capable of supporting detailed forensic analysis.},
+booktitle = {Proceedings of the 28th Annual Computer Security Applications Conference},
+pages = {259–268},
+numpages = {10},
+keywords = {forensics, data provenance, malware, reference monitor},
+location = {Orlando, Florida, USA},
+series = {ACSAC '12}
+}
+@inproceedings{Wang2018FearAL,
+  title={Fear and Logging in the Internet of Things},
+  author={Qi Wang and Wajih Ul Hassan and Adam Bates and Carl A. Gunter},
+  booktitle={NDSS},
+  year={2018}
+}
+@inproceedings{bates2014let,
+  title={Let SDN be your eyes: Secure forensics in data center networks},
+  author={Bates, Adam and Butler, Kevin and Haeberlen, Andreas and Sherr, Micah and Zhou, Wenchao},
+  booktitle={Proceedings of the NDSS workshop on security of emerging network technologies (SENT’14)},
+  pages={1--7},
+  year={2014},
+  organization={Citeseer}
+}
+@inproceedings{wu2015automated,
+  title={Automated network repair with meta provenance},
+  author={Wu, Yang and Chen, Ang and Haeberlen, Andreas and Zhou, Wenchao and Loo, Boon Thau},
+  booktitle={Proceedings of the 14th ACM Workshop on Hot Topics in Networks},
+  pages={1--7},
+  year={2015}
+}
+@inproceedings{park2012provenance,
+  title={A provenance-based access control model},
+  author={Park, Jaehong and Nguyen, Dang and Sandhu, Ravi},
+  booktitle={2012 Tenth Annual International Conference on Privacy, Security and Trust},
+  pages={137--144},
+  year={2012},
+  organization={IEEE}
+}
+@inproceedings{liu2018towards,
+  title={Towards a Timely Causality Analysis for Enterprise Security.},
+  author={Liu, Yushan and Zhang, Mu and Li, Ding and Jee, Kangkook and Li, Zhichun and Wu, Zhenyu and Rhee, Junghwan and Mittal, Prateek},
+  booktitle={NDSS},
+  year={2018}
+}
+@inproceedings{goel2005taser,
+  title={The taser intrusion recovery system},
+  author={Goel, Ashvin and Po, Kenneth and Farhadi, Kamran and Li, Zheng and De Lara, Eyal},
+  booktitle={Proceedings of the twentieth ACM symposium on Operating systems principles},
+  pages={163--176},
+  year={2005}
+}
+@inproceedings{lee2013loggc,
+  title={Loggc: garbage collecting audit log},
+  author={Lee, Kyu Hyung and Zhang, Xiangyu and Xu, Dongyan},
+  booktitle={Proceedings of the 2013 ACM SIGSAC conference on Computer and communications security},
+  pages={1005--1016},
+  year={2013}
+}
+@inproceedings{hassan2018towards,
+  title={Towards scalable cluster auditing through grammatical inference over provenance graphs},
+  author={Hassan, Wajih Ul and Aguse, Lemay and Aguse, Nuraini and Bates, Adam and Moyer, Thomas},
+  booktitle={Network and Distributed Systems Security Symposium},
+  year={2018}
+}
+@inproceedings{chen2017distributed,
+  title={Distributed provenance compression},
+  author={Chen, Chen and Lehri, Harshal Tushar and Kuan Loh, Lay and Alur, Anupam and Jia, Limin and Loo, Boon Thau and Zhou, Wenchao},
+  booktitle={Proceedings of the 2017 ACM International Conference on Management of Data},
+  pages={203--218},
+  year={2017}
+}
+@inproceedings{callahan2006vistrails,
+  title={VisTrails: visualization meets data management},
+  author={Callahan, Steven P and Freire, Juliana and Santos, Emanuele and Scheidegger, Carlos E and Silva, Cl{\'a}udio T and Vo, Huy T},
+  booktitle={Proceedings of the 2006 ACM SIGMOD international conference on Management of data},
+  pages={745--747},
+  year={2006}
+}
+@inproceedings{guo2003knn,
+  title={KNN model-based approach in classification},
+  author={Guo, Gongde and Wang, Hui and Bell, David and Bi, Yaxin and Greer, Kieran},
+  booktitle={OTM Confederated International Conferences" On the Move to Meaningful Internet Systems"},
+  pages={986--996},
+  year={2003},
+  organization={Springer}
+}
+@inproceedings{zhang2006svm,
+  title={SVM-KNN: Discriminative nearest neighbor classification for visual category recognition},
+  author={Zhang, Hao and Berg, Alexander C and Maire, Michael and Malik, Jitendra},
+  booktitle={2006 IEEE Computer Society Conference on Computer Vision and Pattern Recognition (CVPR'06)},
+  volume={2},
+  pages={2126--2136},
+  year={2006},
+  organization={IEEE}
+}
+@article{likas2003global,
+  title={The global k-means clustering algorithm},
+  author={Likas, Aristidis and Vlassis, Nikos and Verbeek, Jakob J},
+  journal={Pattern recognition},
+  volume={36},
+  number={2},
+  pages={451--461},
+  year={2003},
+  publisher={Elsevier}
+}
+@inproceedings{ester1996density,
+  title={A density-based algorithm for discovering clusters in large spatial databases with noise.},
+  author={Ester, Martin and Kriegel, Hans-Peter and Sander, J{\"o}rg and Xu, Xiaowei and others},
+  booktitle={kdd},
+  volume={96},
+  number={34},
+  pages={226--231},
+  year={1996}
+}
+@inproceedings{10.1145/3319535.3363224,
+author = {Liu, Fucheng and Wen, Yu and Zhang, Dongxue and Jiang, Xihe and Xing, Xinyu and Meng, Dan},
+title = {Log2vec: A Heterogeneous Graph Embedding Based Approach for Detecting Cyber Threats within Enterprise},
+year = {2019},
+isbn = {9781450367479},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3319535.3363224},
+doi = {10.1145/3319535.3363224},
+abstract = {Conventional attacks of insider employees and emerging APT are both major threats for the organizational information system. Existing detections mainly concentrate on users' behavior and usually analyze logs recording their operations in an information system. In general, most of these methods consider sequential relationship among log entries and model users' sequential behavior. However, they ignore other relationships, inevitably leading to an unsatisfactory performance on various attack scenarios. We propose log2vec, a heterogeneous graph embedding based modularized method. First, it involves a heuristic approach that converts log entries into a heterogeneous graph in the light of diverse relationships among them. Next, it utilizes an improved graph embedding appropriate to the above heterogeneous graph, which can automatically represent each log entry into a low-dimension vector. The third component of log2vec is a practical detection algorithm capable of separating malicious and benign log entries into different clusters and identifying malicious ones. We implement a prototype of log2vec. Our evaluation demonstrates that log2vec remarkably outperforms state-of-the-art approaches, such as deep learning and hidden markov model (HMM). Besides, log2vec shows its capability to detect malicious events in various attack scenarios.},
+booktitle = {Proceedings of the 2019 ACM SIGSAC Conference on Computer and Communications Security},
+pages = {1777–1794},
+numpages = {18},
+keywords = {heterogeneous graph embedding, graph construction, insider threat detection, advanced persistent threats},
+location = {London, United Kingdom},
+series = {CCS '19}
+}
+@inproceedings{10.1145/3133956.3134015,
+author = {Du, Min and Li, Feifei and Zheng, Guineng and Srikumar, Vivek},
+title = {DeepLog: Anomaly Detection and Diagnosis from System Logs through Deep Learning},
+year = {2017},
+isbn = {9781450349468},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3133956.3134015},
+doi = {10.1145/3133956.3134015},
+abstract = {Anomaly detection is a critical step towards building a secure and trustworthy system. The primary purpose of a system log is to record system states and significant events at various critical points to help debug system failures and perform root cause analysis. Such log data is universally available in nearly all computer systems. Log data is an important and valuable resource for understanding system status and performance issues; therefore, the various system logs are naturally excellent source of information for online monitoring and anomaly detection. We propose DeepLog, a deep neural network model utilizing Long Short-Term Memory (LSTM), to model a system log as a natural language sequence. This allows DeepLog to automatically learn log patterns from normal execution, and detect anomalies when log patterns deviate from the model trained from log data under normal execution. In addition, we demonstrate how to incrementally update the DeepLog model in an online fashion so that it can adapt to new log patterns over time. Furthermore, DeepLog constructs workflows from the underlying system log so that once an anomaly is detected, users can diagnose the detected anomaly and perform root cause analysis effectively. Extensive experimental evaluations over large log data have shown that DeepLog has outperformed other existing log-based anomaly detection methods based on traditional data mining methodologies.},
+booktitle = {Proceedings of the 2017 ACM SIGSAC Conference on Computer and Communications Security},
+pages = {1285–1298},
+numpages = {14},
+keywords = {deep learning, log data analysis, anomaly detection},
+location = {Dallas, Texas, USA},
+series = {CCS '17}
+}
+@article{10.1145/3214304,
+author = {Liu, Ming and Xue, Zhi and Xu, Xianghua and Zhong, Changmin and Chen, Jinjun},
+title = {Host-Based Intrusion Detection System with System Calls: Review and Future Trends},
+year = {2018},
+issue_date = {September 2019},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {51},
+number = {5},
+issn = {0360-0300},
+url = {https://doi.org/10.1145/3214304},
+doi = {10.1145/3214304},
+abstract = {In a contemporary data center, Linux applications often generate a large quantity of real-time system call traces, which are not suitable for traditional host-based intrusion detection systems deployed on every single host. Training data mining models with system calls on a single host that has static computing and storage capacity is time-consuming, and intermediate datasets are not capable of being efficiently handled. It is cumbersome for the maintenance and updating of host-based intrusion detection systems (HIDS) installed on every physical or virtual host, and comprehensive system call analysis can hardly be performed to detect complex and distributed attacks among multiple hosts. Considering these limitations of current system-call-based HIDS, in this article, we provide a review of the development of system-call-based HIDS and future research trends. Algorithms and techniques relevant to system-call-based HIDS are investigated, including feature extraction methods and various data mining algorithms. The HIDS dataset issues are discussed, including currently available datasets with system calls and approaches for researchers to generate new datasets. The application of system-call-based HIDS on current embedded systems is studied, and related works are investigated. Finally, future research trends are forecast regarding three aspects, namely, the reduction of the false-positive rate, the improvement of detection efficiency, and the enhancement of collaborative security.},
+journal = {ACM Comput. Surv.},
+month = {nov},
+articleno = {98},
+numpages = {36},
+keywords = {system call, cloud computing, intrusion detection, Cybersecurity, big data}
+}
+@inproceedings{10.1007/978-3-319-26362-5_13,
+author = {Shu, Xiaokui and Yao, Danfeng Daphne and Ryder, Barbara G.},
+title = {A Formal Framework for Program Anomaly Detection},
+year = {2015},
+isbn = {9783319263618},
+publisher = {Springer-Verlag},
+address = {Berlin, Heidelberg},
+url = {https://doi.org/10.1007/978-3-319-26362-5_13},
+doi = {10.1007/978-3-319-26362-5_13},
+abstract = {Program anomaly detection analyzes normal program behaviors and discovers aberrant executions caused by attacks, misconfigurations, program bugs, and unusual usage patterns. The merit of program anomaly detection is its independence from attack signatures, which enables proactive defense against new and unknown attacks. In this paper, we formalize the general program anomaly detection problem and point out two of its key properties. We present a unified framework to present any program anomaly detection method in terms of its detection capability. We prove the theoretical accuracy limit for program anomaly detection with an abstract detection machine. We show how existing solutions are positioned in our framework and illustrate the gap between state-of-the-art methods and the theoretical accuracy limit. We also point out some potential modeling features for future program anomaly detection evolution.},
+booktitle = {Proceedings of the 18th International Symposium on Research in Attacks, Intrusions, and Defenses - Volume 9404},
+pages = {270–292},
+numpages = {23},
+keywords = {Detection accuracy, Program anomaly detection, Unified framework, Automata theory, Theoretical accuracy limit},
+location = {Kyoto, Japan},
+series = {RAID 2015}
+}
+@inproceedings{10.1145/2030376.2030377,
+author = {Jafarian, Jafar Haadi and Abbasi, Ali and Sheikhabadi, Siavash Safaei},
+title = {A Gray-Box DPDA-Based Intrusion Detection Technique Using System-Call Monitoring},
+year = {2011},
+isbn = {9781450307888},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/2030376.2030377},
+doi = {10.1145/2030376.2030377},
+abstract = {In this paper, we present a novel technique for automatic and efficient intrusion detection based on learning program behaviors. Program behavior is captured in terms of issued system calls augmented with point-of-system-call information, and is modeled according to an efficient deterministic pushdown automaton (DPDA). The frequency of visit of each state is captured and statistically analyzed to detect abnormal execution patterns. This approach provides a very accurate learning of program behavior, which avoids a broad class of impossible path exploits. It also allows detection of new classes of attacks such as denial-of-service and brute-force dictionary attacks. We also present a complexity analysis of our model, and show that its time and space complexity is polynomial and fairly comparable to other similar approaches in learning, and hugely better in detection. Moreover, We evaluate our approach experimentally in terms of false positive rate, convergence rate, and performance. Finally, We shall discuss classes of attacks which are detectable and undetectable by our approach.},
+booktitle = {Proceedings of the 8th Annual Collaboration, Electronic Messaging, Anti-Abuse and Spam Conference},
+pages = {1–12},
+numpages = {12},
+location = {Perth, Australia},
+series = {CEAS '11}
+}
+@ARTICLE{4674371,  author={Maggi, Federico and Matteucci, Matteo and Zanero, Stefano},  journal={IEEE Transactions on Dependable and Secure Computing},   title={Detecting Intrusions through System Call Sequence and Argument Analysis},   year={2010},  volume={7},  number={4},  pages={381-395},  doi={10.1109/TDSC.2008.69}}
+
+@INPROCEEDINGS{924295,  author={Sekar, R. and Bendre, M. and Dhurjati, D. and Bollineni, P.},  booktitle={Proceedings 2001 IEEE Symposium on Security and Privacy. S P 2001},   title={A fast automaton-based method for detecting anomalous program behaviors},   year={2001},  volume={},  number={},  pages={144-155},  doi={10.1109/SECPRI.2001.924295}}
+@INPROCEEDINGS{1199328,  author={Feng, H.H. and Kolesnikov, O.M. and Fogla, P. and Lee, W. and Weibo Gong},  booktitle={2003 Symposium on Security and Privacy, 2003.},   title={Anomaly detection using call stack information},   year={2003},  volume={},  number={},  pages={62-75},  doi={10.1109/SECPRI.2003.1199328}}
+@INPROCEEDINGS{502675,  author={Forrest, S. and Hofmeyr, S.A. and Somayaji, A. and Longstaff, T.A.},  booktitle={Proceedings 1996 IEEE Symposium on Security and Privacy},   title={A sense of self for Unix processes},   year={1996},  volume={},  number={},  pages={120-128},  doi={10.1109/SECPRI.1996.502675}}
+@article{10.5555/1297828.1297830,
+author = {Wespi, Andreas and Debar, Herv\'{e} and Dacier, Marc and Nassehi, Mehdi},
+title = {Fixed- vs. Variable-Length Patterns for Detecting Suspicious Process Behavior},
+year = {2000},
+issue_date = {August 2000},
+publisher = {IOS Press},
+address = {NLD},
+volume = {8},
+number = {2,3},
+issn = {0926-227X},
+abstract = {This paper addresses the problem of creating patterns that can be used to model the normal behavior of a given process. The models can be used for intrusion-detection purposes. First, we present a novel method to generate input data sets that enable us to observe the normal behavior of a process in a secure environment. Second, we propose various techniques to derive either fixed-length or variable-length patterns from the input data sets. We show the advantages and drawbacks of each technique, based on the results of the experiments we have run on our testbed.},
+journal = {J. Comput. Secur.},
+month = {aug},
+pages = {159–181},
+numpages = {23}
+}
+@inproceedings{10.5555/645838.670723,
+author = {Wespi, Andreas and Dacier, Marc and Debar, Herv\'{e}},
+title = {Intrusion Detection Using Variable-Length Audit Trail Patterns},
+year = {2000},
+isbn = {3540410856},
+publisher = {Springer-Verlag},
+address = {Berlin, Heidelberg},
+abstract = {Audit trail patterns generated on behalf of a Unix process canb e used to model the process behavior. Most of the approaches proposed so far use a table of fixed-length patterns to represent the process model. However, variable-length patterns seem to be more naturally suited to model the process behavior, but they are also more difficult to construct. In this paper, we present a novel technique to build a table of variable-length patterns. This technique is based on Teiresias, an algorithm initially developed for discovering rigid patterns in unaligned biological sequences. We evaluate the quality of our technique in a testbed environment, and compare it with the intrusion-detection system proposed by Forrest et al. [8], which is based on fixed-length patterns. The results achieved with our novel method are significantly better than those obtained with the original method based on fixed-length patterns.},
+booktitle = {Proceedings of the Third International Workshop on Recent Advances in Intrusion Detection},
+pages = {110–129},
+numpages = {20},
+series = {RAID '00}
+}
